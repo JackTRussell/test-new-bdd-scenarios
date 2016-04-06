@@ -5,7 +5,7 @@ Feature: Book search
 @SC_887100784
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
-And today is 2015-11-18
+And today is 2015-04-06
 
 
 @Critical @Test_1 @SC_250667884
