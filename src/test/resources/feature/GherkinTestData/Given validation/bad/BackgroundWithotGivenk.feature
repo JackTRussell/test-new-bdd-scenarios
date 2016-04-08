@@ -2,6 +2,9 @@
 Feature: Given in only one scenariol
 Check Background without given keywordjh
 
+Background:
+Given <col>
+
 @Critical @Test_1 @SC_250750888
 Scenario: Check scenario
 Given asd

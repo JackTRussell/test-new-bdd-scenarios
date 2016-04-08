@@ -2,6 +2,9 @@
 Feature: Given in background
   Check Background without given keyword
 
+Background:
+Given this story has background with given keyword
+
 @SC_887436244
 Scenario: 
 Given this story has background with given keyword
