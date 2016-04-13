@@ -5,10 +5,6 @@ Feature: Given in all scenarios
 Background:
 When in this story background hasn't given keyword
 
-@SC_887386244
-Scenario: 
-When in this story background hasn't given keyword
-
 
 @Critical @Test_1 @SC_250828892
 Scenario: Check scenario
