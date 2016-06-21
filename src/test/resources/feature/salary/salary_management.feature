@@ -1,26 +1,24 @@
-@Story_BookSearch @ST_804657343
+@Story_BookSearch @ghjh @ST_324976200
 Feature: Salary Management
 
-
-@Critical @Test_1 @SC_250927912
-Scenario: Modify an employee's salary
+@Critical @Test_1 @SC_325052221
+Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
-| id | user | salary |
-| 1 | donald | 60000.0 |
-| 2 | dewie | 62000.0 |
-| 3 | goofy | 55000.0 |
-| 4 | scrooge | 70000.0 |
-| 5 | daisy | 56000.0 |
-| 6 | minnie | 62000.0 |
-| 7 | mickey | 51000.0 |
-| 8 | fethry | 66500.0 |
+When the boss increases the salary for the <user> with id <id> by 5%
+Then the payroll for the employee with <id> should display a salary of <salary>
+And i want save this string to Git
+And this string must be pulled from Git
+And this also must be re-stored on GIT!!!!
+And 34wteyeyy
 
-When the boss increases the salary for the employee with id '3' by 5%
-Then the payroll for the employee with id '3' should display a salary of 57750
-And employee is happy
+Examples: 
+| user |
+| donald |
+| dewie |
 
 
-@Test_1 @High @SC_250930913
+
+@High @Test_1 @SC_412801569
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -40,6 +38,3 @@ Examples:
 | 6 | minnie | 62000.0 |
 | 7 | mickey | 51000.0 |
 | 8 | fethry | 66500.0 |
-
-
-
