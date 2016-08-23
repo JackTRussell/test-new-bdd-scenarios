@@ -1,11 +1,11 @@
-@ST_804332347 @Story_BookSearch @newtag
+@Story_BookSearch @ST_804332347 @newtag
 Feature: Book search
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
 Background: 
 
 Given a $100 microwave was sold on 2015-11-03
-And today is 2015-04-07
+And today is 2016-08-23
 
 @Critical @Test_1 @SC_804335342
 Scenario: Search books by publication year
