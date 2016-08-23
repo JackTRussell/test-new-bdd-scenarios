@@ -1,4 +1,4 @@
-@first-tag @ST_137598776
+@ST_137598776 @first-tag
 Feature: Some feature name
 There is some description
 
