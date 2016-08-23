@@ -4,9 +4,9 @@ There is some description
 
 Background: 
 Background description
-Given some bg
+Given some bg ghjkl;'
 
-@SC_1051814725 @thirdscenariotag
+@thirdscenariotag @SC_1051814725
 Scenario: First scenario
 Some description
 Given I created scenario
