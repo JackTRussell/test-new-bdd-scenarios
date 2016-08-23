@@ -6,3 +6,9 @@ Background:
 Background description
 Given some bg
 
+@thirdscenariotag @SC_1051814725
+Scenario: First scenario
+Some description
+Given I created scenario
+Then I see it in Relime
+
