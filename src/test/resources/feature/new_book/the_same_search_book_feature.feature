@@ -23,4 +23,5 @@ Scenario: scenario
 dd
 Given dddd
 When ddddd
+And new step is added
 
