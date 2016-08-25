@@ -1,4 +1,4 @@
-@tagtagtag @this_is_story_tag @ST_899811340
+@ST_899811340 @tagtagtag @this_is_story_tag
 Feature: Update this name
 I want to see new description
 
@@ -6,7 +6,7 @@ Background:
 
 Given hkjhkj
 
-@SC_664836378 @first_scenario_tag
+@first_scenario_tag @SC_664836378
 Scenario: First scenario
 There is scenario description
 Lorem ipsum dolor sit amet, mea dico volumus copiosae cu, debet movet doctus ex nec, at adipisci interpretaris usu. Has feugiat ponderum te. Pri nisl case id, te est diam sint regione, in alii philosophia sit. Ius ancillae voluptaria cu. Ut eam dicta partiendo.
