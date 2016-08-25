@@ -1,10 +1,10 @@
-@ST_614942077 @tagtagtag @first-tag
+@tagtagtag @first-tag @ST_614942077
 Feature: Some feature name
 There is some description
 
 Background: 
 Background description
-Given some bg ghjkl;'
+Given some bg with changes
 
 @thirdscenariotag @SC_1051814725
 Scenario: First scenario
