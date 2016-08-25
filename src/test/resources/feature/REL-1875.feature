@@ -1,10 +1,10 @@
-@ST_899811340 @tagtagtag @this_is_story_tag
+@tagtagtag @this_is_story_tag @ST_899811340 @new_changes
 Feature: Just feature for testing
-I want to see new description
+I want to see new description with new changes
 
 Background: 
 
-Given hkjhkj
+Given new changes
 
 @first_scenario_tag @SC_664836378
 Scenario: First scenario
