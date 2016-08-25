@@ -22,5 +22,5 @@ Then i want do smth with "smth"
 Scenario: scenario
 dd
 Given dddd
-And new step is added
+And new change is added
 
