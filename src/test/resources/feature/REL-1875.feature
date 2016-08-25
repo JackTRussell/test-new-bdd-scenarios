@@ -1,4 +1,4 @@
-@tagtagtag @this_is_story_tag @ST_899811340
+@ST_899811340 @tagtagtag @this_is_story_tag
 Feature: Update this name
 I want to see new description
 
