@@ -11,7 +11,7 @@ Scenario: First scenario
 Some description
 Given I created scenario
 Then I see it in Relime
-#changed
+
 
 @SC_960785136
 Scenario: Next scenario
