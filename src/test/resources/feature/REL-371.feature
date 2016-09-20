@@ -19,3 +19,12 @@ And I have accounts in dropdown
 When I select invalid account from dropdown
 Then I see validation message ‘Repository is not accessible with these credentials’
 
+@SC_963651775
+Scenario: Add valid TTS account
+Given I’m logged as DO
+And I’m on Project Settings page
+And I added Jira path
+And I have accounts in dropdown
+When I select valid account from dropdown
+Then I see notification ‘Account was linked successfully’
+
