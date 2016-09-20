@@ -29,3 +29,13 @@ And I opened tab Public projects
 Then I see table’s columns: Index number (#), Project name (Name), Project key (Key), Actions
 And I see Actions column has 1 icon
 
+@SC_1060115518
+Scenario: Dashboard for DO user
+Given I’m logged in as DO user
+When I’m on Dashboard page
+Then I see table with projects for current domain
+But I don’t see tabs
+And I see table has columns: Index number (#), Project name (Name), Project key (Key), Actions.
+And I see Actions column has 2 icons
+And I see button ‘Create new project’
+
