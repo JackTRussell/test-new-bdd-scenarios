@@ -21,3 +21,11 @@ Then I see tab My subscriptions is active by default
 And I see table’s columns: Index number (#), Project name (Name), Project key (Key), Actions
 And I see Actions column has 2 icons
 
+@SC_1058126257
+Scenario: Dashboard panel for TM/PM user: Public projects tab
+Given I logged in as non-DO user
+When I’m on Dashboard page
+And I opened tab Public projects
+Then I see table’s columns: Index number (#), Project name (Name), Project key (Key), Actions
+And I see Actions column has 1 icon
+
