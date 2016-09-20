@@ -12,3 +12,12 @@ Then I see projects related only to this domain
 When projects are absent for selected domain
 Then I see message "No projects exist for the current domain"
 
+@SC_1021490976
+Scenario: Dashboard panel for TM/PM user: My subscription tab
+For TM and PM roles Projects panel should be divided into 2 tab
+Given I logged in as non-DO user
+When I’m on Dashboard page
+Then I see tab My subscriptions is active by default
+And I see table’s columns: Index number (#), Project name (Name), Project key (Key), Actions
+And I see Actions column has 2 icons
+
