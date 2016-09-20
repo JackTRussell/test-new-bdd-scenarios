@@ -28,3 +28,12 @@ And I have accounts in dropdown
 When I select valid account from dropdown
 Then I see notification ‘Account was linked successfully’
 
+@SC_928641366
+Scenario: Add invalid TTS account
+Given I’m logged as DO
+And I’m on Project Settings page
+And I added Jira path
+And I have accounts in dropdown
+When I select invalid account from dropdown
+Then I see validation message ‘Task tracker is not accessible with this account’
+
