@@ -7,3 +7,9 @@ Given I’m logged as DO
 And I’m on Dashboard page
 And I selected project without GIT data
 
+@bug @SC_347361380
+Scenario: 'Activity' icon tooltip on left panel is not displayed
+When I hovered 'Activity' icon on left panel
+And I checked tooltip
+Then I see tooltip "The project should be uploaded from Git repository"
+
