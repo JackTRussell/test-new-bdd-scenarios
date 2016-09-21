@@ -13,3 +13,9 @@ When I hovered 'Activity' icon on left panel
 And I checked tooltip
 Then I see tooltip "The project should be uploaded from Git repository"
 
+@bug @SC_364821257
+Scenario: 'Editor' icon tooltip on left panel is not displayed
+When I hovered 'Editor' icon on left panel
+And I checked tooltip
+Then I see tooltip "The project should be uploaded from Git repository"
+
