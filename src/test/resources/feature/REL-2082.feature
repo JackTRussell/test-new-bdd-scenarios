@@ -19,3 +19,9 @@ When I hovered 'Editor' icon on left panel
 And I checked tooltip
 Then I see tooltip "The project should be uploaded from Git repository"
 
+@bug @SC_343383881
+Scenario: 'Feature Managemen' icon tooltip on left panel is not displayed
+When I hovered 'Feature Management' icons on left panel
+And I checked tooltip
+Then I see tooltip "The project should be uploaded from Git repository"
+
