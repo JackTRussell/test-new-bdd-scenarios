@@ -1,7 +1,7 @@
-@ST_937019960
+@ST_677975610
 Feature: Adding an account on Project Settings page
 
-@SC_969971711
+@SC_729433026
 Scenario: Add valid VCS account
 Given I’m logged as DO
 And I’m on Project Settings page
@@ -10,7 +10,7 @@ And I have accounts in dropdown
 When I select valid account from dropdown
 Then I see notification ‘Account was linked successfully’
 
-@SC_942845378
+@SC_732674185
 Scenario: Add invalid VCS account
 Given I’m logged as DO
 And I’m on Project Settings page
@@ -19,7 +19,7 @@ And I have accounts in dropdown
 When I select invalid account from dropdown
 Then I see validation message ‘Repository is not accessible with these credentials’
 
-@SC_963651775
+@SC_683367383
 Scenario: Add valid TTS account
 Given I’m logged as DO
 And I’m on Project Settings page
@@ -28,7 +28,7 @@ And I have accounts in dropdown
 When I select valid account from dropdown
 Then I see notification ‘Account was linked successfully’
 
-@SC_928641366
+@SC_708915193
 Scenario: Add invalid TTS account
 Given I’m logged as DO
 And I’m on Project Settings page
